@@ -1,0 +1,21 @@
+*{padding:0;margin:0; font-family:"微软雅黑"; font-size:14px; color:#414141;}
+.move{margin: 0 auto;position:absolute; border-radius:4px;border: 1px solid #ececec;box-shadow: 2px 3px 5px #5C5C5C;z-index:999; background-color:#fff;display:none;}
+.move h4{padding:8px; text-align:center; background-color:#00b7ee; cursor:move; color:#fff; font-size:16px; position:relative;}
+.move p{ text-align:center;padding:15px 0;line-height: 21px;}
+/*.openBtn{background-color:#00b7ee; border:1px solid #006dcc; border-radius:5px; line-height:16px; padding:10px  30px; text-align:center; font-size:16px; color:#fff; margin:50px auto;outline:none; cursor:pointer;}*/
+.openBtn{ position: absolute;}
+.openBtn-hover{ outline:#00b7ee; background-color:#006dcc;
+    box-shadow: 0px 0px 6px #848484;
+    -moz-transition: all .3s;	/* Firefox 4 */
+    -webkit-transition: all .3s;	/* Safari 和 Chrome */
+    -o-transition: all .3s;
+    transition: all .3s;
+}
+.openBtn-down{box-shadow: 0px -3px 3px #AE4600 inset;
+    -moz-transition: all .3s;	/* Firefox 4 */
+    -webkit-transition: all .3s;	/* Safari 和 Chrome */
+    -o-transition: all .3s;
+    transition: all .3s;
+}
+.bgDiv{ position:absolute;background-color:#000; left:0; top:0; bottom: 0;right: 0;overflow-y: auto;opacity: .4; z-index:2; display:none;pointer-events: none;pointer-events: none;}
+#closeDivBtn{ color: #fff;right: 15px;position: absolute;cursor: pointer;}
